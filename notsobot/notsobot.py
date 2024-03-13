@@ -1065,7 +1065,7 @@ class NotSoBot(commands.Cog):
             return await ctx.send("That image cannot be vaporwaved.")
         await self.safe_send(ctx, None, file, file_size)
 
-    @commands.command(aliases=["achievement"])
+    @commands.command(aliases=["machievement"])
     @commands.bot_has_permissions(attach_files=True)
     async def minecraftachievement(self, ctx, *, txt: str):
         """Generate a Minecraft Achievement"""
