@@ -9,7 +9,7 @@ import aiohttp
 import discord
 import moviepy
 import yt_dlp as youtube_dl
-from moviepy import CompositeVideoClip, TextClip, VideoFileClip, audio, video
+from moviepy.editor import CompositeVideoClip, TextClip, VideoFileClip, audio, video
 from red_commons.logging import getLogger
 from redbot.core import checks, commands
 from redbot.core.data_manager import cog_data_path
